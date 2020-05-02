@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Sensor client</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="sensor.js"></script>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="row justify-content-center mt-4">
+
+			<h1>Sensor Simulator</h1>
+
+			<i class='fas fa-satellite-dish' style='font-size: 36px'></i> <i
+				class='fas fa-satellite-dish' style='font-size: 36px'></i> <i
+				class='fas fa-satellite-dish' style='font-size: 36px'></i>
+		</div>
+
+
+		<div class="row mt-5">
+
+			<div class="col md-4">
+				<div class="alert alert-primary">
+
+					<h2>Realtime Sensor</h2>
+
+					Sensor Id : <br />
+					<div class="row">
+						<div class="col">
+
+							<input class="form-control form-control-md" type="text" id="id"
+								placeholder="Id" />
+
+						</div>
+						<div class="col">
+							<button class="btn btn-primary" onclick="getDetails()">Show
+								Data</button>
+						</div>
+
+					</div>
+
+					<div id="status1"></div>
+					<br /> sid:
+					<div id="sid"></div>
+					<br /> co2:
+					<div id="co2"></div>
+					<br /> smoke:
+					<div id="smoke"></div>
+					<br /> floor:
+					<div id="floor"></div>
+					<br /> room:
+					<div id="room"></div>
+					<br />
+				</div>
+			</div>
+
+
+			<div class="col md-4">
+				<div class="alert alert-primary">
+
+					<h2>Auto Update Sensor</h2>
+
+					</br>
+
+					<div class="row mb-2">
+
+						<div class="col">
+							<button class="btn btn-primary" onclick="updateDetails()">Update
+								Data</button>
+							<br /></br>
+						</div>
+					</div>
+
+
+
+					<div id="status2"></div>
+					<div id="status3"></div>
+				</div>
+
+
+			</div>
+
+
+			<div class="col md-4"></div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>
