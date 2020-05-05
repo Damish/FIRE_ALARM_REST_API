@@ -22,7 +22,7 @@ function getDetails() {
 				$("#status1").text("Sorry! sensor not found!");
 
 			},
-			timeout : 1000,
+			
 		});
 
 	}, 1000);
@@ -43,7 +43,7 @@ function getAllDetails() {
 		},
 		error : function(jqXHR, textStatus, errorThrown) {
 		},
-		timeout : 3000,
+		timeout : 1000,
 	});
 
 };
@@ -87,7 +87,7 @@ function updateDetails() {
 			});
 		}
 
-	}, 3000);
+	}, 10000);
 
 	
 }
