@@ -46,7 +46,7 @@ public class SensorService implements ContainerResponseFilter{
     @Path("{sid}/{co2}/{smoke}/{floor}/{room}")
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
-	public SensorData newBook(
+	public SensorData addSensor(
 			@PathParam("sid") String sid,
 			@PathParam("co2") int co2,
 			@PathParam("smoke") int smoke,
