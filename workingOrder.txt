@@ -25,3 +25,6 @@ Note:  Wait for 40 seconds in web client  and 10 seconds in Desktop client for i
 Note:  Newly added sensors or updated sensor data will be take action in the next phase of timer.
 Note: To update newly added sensors with co2 and smoke values, refresh sensor app page(' http://localhost:8080/SensorData_REST_API/ ')
 and click Update button.
+
+Final Report Download Link:
+' https://github.com/Damish/FIRE_ALARM_REST_API/blob/master/Final%20Report.docx '
