@@ -1,0 +1,27 @@
+FIRE ALARM MONITORING SYSTEM-
+This is the order of deploying projects.Please follow this order to avoid errors while compiling.
+You may find the respective install.txt file below each item.
+
+1. Create Database(MySQL Workbench)  - importDB.txt
+' https://github.com/Damish/FIRE_ALARM_REST_API/blob/master/importDB.txt '
+
+2. REST API start(Eclipse)  - install.txt
+' https://github.com/Damish/FIRE_ALARM_REST_API/blob/master/install.txt '
+
+3. Web client start(Webstrom) - install.txt
+' https://github.com/Damish/Fire_Alarm_WC/blob/master/install.txt '
+
+4. Desktop client start(Netbeans) - install.txt
+' https://github.com/Damish/-Fire_Alarm_Desktop_Client-/blob/master/install.txt '
+
+5. Add new sensor(Desktop Client)- (steps 7,8,9,10) in install.txt
+' https://github.com/Damish/-Fire_Alarm_Desktop_Client-/blob/master/install.txt '
+
+6. Update sensor information(co2,smoke) using sensor simulator
+' http://localhost:8080/SensorData_REST_API/ '
+
+
+Note:  Wait for 40 seconds in web client  and 10 seconds in Desktop client for initial data retrieval.
+Note:  Newly added sensors or updated sensor data will be take action in the next phase of timer.
+Note: To update newly added sensors with co2 and smoke values, refresh sensor app page(' http://localhost:8080/SensorData_REST_API/ ')
+and click Update button.
