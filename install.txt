@@ -1,0 +1,26 @@
+*** Please read workingOrder.txt before following steps***
+
+1. Create new Dynamic web project in eclipse.
+
+2. Give the project name as 'SensorData_REST_API'
+Use the above name to avoid any deployment errors.
+
+3. Create new Apache Tomcat v9.0 server to deploy the project.
+
+3. Download github repository from ''https://github.com/Damish/FIRE_ALARM_REST_API/tree/master/SensorData_REST_API''
+
+4. Copy and replace the 'src' folder form github repository to the 'src' folder in created dynamic project.
+
+5. Again copy and replace the 'WebContent' folder form github repository to the 'WebContent' folder in created dynamic project.
+
+6.Goto Project 'SensorData_REST_API' >> Java Resources >> src >> db >> 'DbManager.java'
+
+7.In the lines 15, 16 , Change the username and password given when you install the sql server.
+*If no password was given, leave in blank ""  >> Now click Save All
+
+8.Now right click on 'SensorData_REST_API' >> Run as >>Run on server>> select 'Tomcat v9.0 Server at localhost'>>Finish
+
+9.Now the Rest API is started.
+
+10.Sensor Simulator app will automatically start in web browser.
+If not,Goto url in Browser ' http://localhost:8080/SensorData_REST_API/ '
