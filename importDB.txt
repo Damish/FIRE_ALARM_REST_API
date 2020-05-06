@@ -1,0 +1,21 @@
+*** Please read workingOrder.txt before following steps***
+
+1.Open MySQL Workbench
+
+2.Create new connection 'fire_alarm_db'
+
+3.Create Schema named 'sensordb'
+
+4.Download DB schema from ' https://github.com/Damish/FIRE_ALARM_REST_API/blob/master/sql/sqlCommands.sql '
+
+5.Goto Server tab in MySQL Workbench >> Data Import >> Select Import from self contained file >> Select file 'sqlCommands.sql' (previously downloaded in step 4).
+
+6.Next select Default target schema: as the 'sensordb' form dropdown.
+
+7.Then click start Import.
+
+8.Now open new sql query and type  
+'  SELECT * FROM sensordb.sdata;    '
+
+9.If the database is succefully imported,You will see few sensors are added to the database by default.
+
