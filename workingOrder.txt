@@ -1,6 +1,6 @@
 FIRE ALARM MONITORING SYSTEM-
 This is the order of deploying projects.Please follow this order to avoid errors while compiling.
-You may find the respective install.txt file below each item.
+You may find the link to download respective install.txt file below each item.
 
 1. Create Database(MySQL Workbench)  - importDB.txt
 ' https://github.com/Damish/FIRE_ALARM_REST_API/blob/master/importDB.txt '
